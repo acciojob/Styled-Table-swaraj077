@@ -1,1 +1,24 @@
 /* your code */
+table{
+	width: 100%;
+	border: 1px solid black;
+}
+
+table, tr, th, td{
+	border-collapse: collapse;
+}
+
+th{
+	background-color: skyblue;
+}
+
+tr:nth-child(2n){
+	background-color: lightsteelblue
+}
+
+caption{
+	background-color: lightcoral;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
